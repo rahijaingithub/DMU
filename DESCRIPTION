@@ -1,0 +1,30 @@
+Package: DMU
+Title: The package prepares model for datasets with missing values in predictor space. Currently, it can handle continuos variables only.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Imports:
+  memoise (>= 1.1.0),
+  dplyr (>= 0.8.4),
+  stringr (>= 1.4.0),
+  stats (>= 3.6.2),
+  scales (>= 1.1.0),
+  caret (>= 6.0-86),
+  magrittr (>= 1.5),
+  janitor (>= 1.2.1),
+  MLmetrics (>= 1.1.1),
+  mice (>= 3.8.0),
+  GA (>= 3.2),
+  MCMCpack (>= 1.4-8),
+  foreach (>= 1.5.0),
+  doParallel (>= 1.0.15)
+RoxygenNote: 7.1.0
